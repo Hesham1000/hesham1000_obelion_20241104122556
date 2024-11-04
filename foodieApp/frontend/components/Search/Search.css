@@ -1,0 +1,93 @@
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-tabs {
+  display: flex;
+}
+
+.nav-tab {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.3s;
+}
+
+.nav-tab:hover {
+  color: #0073e6;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.input-field {
+  width: 60%;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.cuisine-dropdown {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: #0073e6;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #005bb5;
+}
+
+.additional-links {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.additional-link {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #0073e6;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+}
+
+.footer-link {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #000000;
+}
